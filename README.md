@@ -26,6 +26,35 @@ Opens at `http://localhost:5173`.
 - **Webhooks** — add/edit/disable webhook endpoints and event subscriptions (UI only, no requests are actually sent)
 - **App settings** — feature flags (encryption, read receipts, typing indicators, file sharing) and file size limits
 
+## Screenshots
+
+<table>
+<tr>
+<td align="center"><b>Login</b><br><img src="screenshots/login.png" width="400"></td>
+<td align="center"><b>Overview</b><br><img src="screenshots/overview.png" width="400"></td>
+</tr>
+<tr>
+<td align="center"><b>Users</b> — invite user<br><img src="screenshots/users-invite.png" width="400"></td>
+<td align="center"><b>Groups</b><br><img src="screenshots/groups.png" width="400"></td>
+</tr>
+<tr>
+<td align="center"><b>Groups</b> — create group<br><img src="screenshots/groups-create.png" width="400"></td>
+<td align="center"><b>Group detail</b> — members & permissions<br><img src="screenshots/group-detail.png" width="400"></td>
+</tr>
+<tr>
+<td align="center"><b>Group detail</b> — chat history (read-only)<br><img src="screenshots/group-detail-chat.png" width="400"></td>
+<td align="center"><b>Roles & permissions</b><br><img src="screenshots/roles-permissions.png" width="400"></td>
+</tr>
+<tr>
+<td align="center"><b>Roles & permissions</b> — new role<br><img src="screenshots/roles-new-role.png" width="400"></td>
+<td align="center"><b>App branding</b> — live phone preview<br><img src="screenshots/app-branding.png" width="400"></td>
+</tr>
+<tr>
+<td align="center"><b>Webhooks</b><br><img src="screenshots/webhooks.png" width="400"></td>
+<td align="center"><b>App settings</b><br><img src="screenshots/app-settings.png" width="400"></td>
+</tr>
+</table>
+
 ## How this connects to the mobile app
 
 `src/context/ConfigContext.jsx` holds the same shape of data as the mobile app's `src/theme/brand.json`. The Branding and App Settings pages edit this in-memory config live — that's what "Save & publish" represents.

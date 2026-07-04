@@ -169,7 +169,7 @@ export const chats = {
     { id: 'm17', userId: 'u3', text: "Let's share it in All Hands today. She deserves the recognition 🎉", ts: '11:08 AM' },
     { id: 'm18', userId: 'u1', text: 'Blog editorial calendar for April is in the Notion doc. I left a few slots open for reactive content.', ts: '1:00 PM' },
     { id: 'm19', userId: 'u5', text: "Looks great. I'll take the 'Customer stories' slot on April 14th.", ts: '1:05 PM' },
-    { id: 'm20', userId: 'u3', text: 'Perfect. Sofia — can you cover the 'Product update' on April 21st?', ts: '1:08 PM' },
+    { id: 'm20', userId: 'u3', text: "Perfect. Sofia — can you cover the 'Product update' on April 21st?", ts: '1:08 PM' },
     { id: 'm21', userId: 'u1', text: 'Absolutely. I will draft it after the product review next week.', ts: '1:10 PM' },
     { id: 'm22', userId: 'u3', text: 'Retro notes are now in Notion. Summary: Q1 was our best quarter. Momentum is real. Keep going 💪', ts: '4:30 PM' },
     { id: 'm23', userId: 'u5', text: 'Great retro everyone. Thanks for the energy and ideas today!', ts: '4:32 PM' },
