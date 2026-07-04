@@ -1,0 +1,166 @@
+.phone-frame {
+  width: 260px;
+  height: 540px;
+  background: #14191D;
+  border-radius: 36px;
+  padding: 10px;
+  box-shadow: var(--shadow-pop);
+  position: sticky;
+  top: 32px;
+  flex-shrink: 0;
+}
+
+.phone-notch {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 18px;
+  background: #14191D;
+  border-radius: 0 0 12px 12px;
+  z-index: 2;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  background: #F7F9F8;
+  border-radius: 28px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-hero {
+  padding: 34px 18px 16px;
+  color: #fff;
+  transition: background 0.15s ease;
+}
+
+.phone-logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.phone-app-name {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.phone-tagline {
+  font-size: 11px;
+  opacity: 0.85;
+  margin-top: 2px;
+}
+
+.phone-body {
+  padding: 10px 12px 4px;
+  flex: 1;
+}
+
+.phone-chat-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 0;
+}
+
+.phone-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+
+.phone-chat-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.phone-chat-name {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #16211F;
+}
+
+.phone-chat-msg {
+  font-size: 10.5px;
+  color: #5B6B68;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.phone-badge {
+  min-width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+  transition: background 0.15s ease;
+}
+
+.phone-bubbles {
+  padding: 6px 12px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.phone-bubble {
+  max-width: 78%;
+  font-size: 10.5px;
+  padding: 7px 10px;
+  border-radius: 12px;
+  line-height: 1.3;
+}
+
+.phone-bubble.incoming {
+  background: #EEF2F1;
+  color: #16211F;
+  align-self: flex-start;
+  border-bottom-left-radius: 3px;
+}
+
+.phone-bubble.outgoing {
+  color: #fff;
+  align-self: flex-end;
+  border-bottom-right-radius: 3px;
+  transition: background 0.15s ease;
+}
+
+.phone-tabbar {
+  display: flex;
+  border-top: 1px solid #E3E8E7;
+  padding: 10px 0 14px;
+}
+
+.phone-tab {
+  flex: 1;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: #9AA6A3;
+  transition: color 0.15s ease;
+}

@@ -1,0 +1,60 @@
+export const permissionKeys = [
+  { key: 'manageUsers', label: 'Manage users', description: 'Invite, suspend, or remove users' },
+  { key: 'manageGroups', label: 'Manage groups', description: 'Create, edit, or delete chat groups' },
+  { key: 'moderateMessages', label: 'Moderate messages', description: 'Delete messages and mute members' },
+  { key: 'manageRoles', label: 'Manage roles', description: 'Edit role permissions' },
+  { key: 'manageBranding', label: 'Manage branding', description: 'Change app logo, colors, and name' },
+  { key: 'manageWebhooks', label: 'Manage webhooks', description: 'Configure webhook endpoints' },
+  { key: 'viewAnalytics', label: 'View analytics', description: 'Access usage dashboards and reports' },
+];
+
+export const roles = [
+  {
+    id: 'r1',
+    name: 'Team Admin',
+    description: 'Full control over the workspace.',
+    memberCount: 1,
+    system: true,
+    permissions: {
+      manageUsers: true,
+      manageGroups: true,
+      moderateMessages: true,
+      manageRoles: true,
+      manageBranding: true,
+      manageWebhooks: true,
+      viewAnalytics: true,
+    },
+  },
+  {
+    id: 'r2',
+    name: 'Moderator',
+    description: 'Keeps conversations on track without workspace-level control.',
+    memberCount: 1,
+    system: false,
+    permissions: {
+      manageUsers: false,
+      manageGroups: true,
+      moderateMessages: true,
+      manageRoles: false,
+      manageBranding: false,
+      manageWebhooks: false,
+      viewAnalytics: true,
+    },
+  },
+  {
+    id: 'r3',
+    name: 'Member',
+    description: 'Default role for everyone who joins.',
+    memberCount: 5,
+    system: true,
+    permissions: {
+      manageUsers: false,
+      manageGroups: false,
+      moderateMessages: false,
+      manageRoles: false,
+      manageBranding: false,
+      manageWebhooks: false,
+      viewAnalytics: false,
+    },
+  },
+];
